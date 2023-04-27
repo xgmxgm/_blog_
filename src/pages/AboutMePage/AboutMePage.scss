@@ -1,0 +1,69 @@
+.body__AboutMe {
+    .About_me_div {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        
+        .About_me_text {
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .About_me_photo {
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    
+    h3 {
+        padding-bottom: 23px;
+    }
+
+    .MusicPlayer {
+        width: 100%;
+
+        .MusicPlayer__app {
+            width: 85%;
+        }
+    }
+}
+
+@media (max-width: 530px) {
+    .body__AboutMe {
+        .MusicPlayer__title {
+            h2 {
+                font-size: 35px;
+            }
+        }
+    }
+}
+
+@media (max-width: 660px) {
+    .body__AboutMe {
+        h2 {
+            font-size: 35px;
+        }
+    }
+}
+
+@media (max-width: 1300px) {
+    .body__AboutMe {
+        p {
+            font-size: 25px;
+        }
+    }
+}
+
+@media (max-width: 1245px) {
+    .body__AboutMe {
+        .About_me_div {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}

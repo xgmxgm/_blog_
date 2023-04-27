@@ -1,0 +1,21 @@
+.body__Welcome {
+    height: 93.3vh;
+
+    h2 {
+        padding-top: 150px;
+        padding-bottom: 98px;
+    }
+}
+
+@media (max-width: 660px) {
+    .body__Welcome {
+        h2 {
+            font-size: 35px;
+            margin: 0;
+        }
+
+        p {
+            font-size: 30px;
+        }
+    }
+}

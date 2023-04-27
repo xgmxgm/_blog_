@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// imports
+
+@import "./theme.scss";
+@import "./burger.scss";
+
+// font
+
+@import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
+
+// styles
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 48px;
+    margin-top: 55px;
+}
+
+body {
+    font-family: 'Monda', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #E6E6E6;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #303536;
+    border-radius: 100px;
+}
+
+@media (max-width: 660px) {
+    h2 {
+        font-size: 35px;
+    }
+}
