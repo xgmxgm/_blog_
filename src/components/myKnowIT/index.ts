@@ -1,1 +1,0 @@
-export { MyKnowIT } from "./ui/MyKnowIT"
