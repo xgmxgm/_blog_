@@ -1,33 +1,31 @@
-import Header from "./components/header/Header";
+import { type FC } from 'react';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
+
+import { routes } from "./components/react-router-dom/index";
 import { ThemeProvider } from "./provider/ThemeProvider";
-import Lavout from "./components/Lavout";
-import { Routes, Route } from 'react-router-dom';
+import Layout from "./components/Layout";
+import { Scroll } from "./components/scroll/index"
 
-// pages
+export const App: FC = () => {
 
-import WelcomePage from './pages/WelcomePage/WelcomePage';
-import BlogPage from './pages/BlogPage/BlogPage';
-import AboutMePage from './pages/AboutMePage/AboutMePage';
-import ProflioPage from './pages/PorfolioPage/ProfolioPage';
-import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
-
-function App() {
   return (
     <div className="app">
       <ThemeProvider>
-        <Lavout>
-        <Header/>
-          <Routes>
-            <Route path="/" element={<WelcomePage/>} />
-            <Route path="/Blog" element={<BlogPage/>} />
-            <Route path="/AboutMe" element={<AboutMePage/>} />
-            <Route path="/Portfolio" element={<ProflioPage/>} />
-            <Route path="*" element={<NotFoundPage/>} />
-          </Routes>
-        </Lavout>
+        <Layout>
+          <BrowserRouter>
+            <Scroll />
+            <Routes>
+              {routes.map((route, index) => (
+                <Route
+                  key = {index} 
+                  path = {route.path}
+                  element = {route.element}
+                />
+              ))}
+            </Routes>
+          </BrowserRouter>
+        </Layout>
       </ThemeProvider>
     </div>
   )
 }
-
-export default App

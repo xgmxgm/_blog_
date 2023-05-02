@@ -1,0 +1,27 @@
+.body__Blog {
+    height: 100vh;
+}
+
+@media (max-width: 750px) {
+    .body__Blog {
+        h2 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 35px;
+        }
+    }
+}
+
+@media (max-width: 660px) {
+    .body__Blog {
+        h2 {
+            font-size: 35px;
+        }
+
+        p {
+            font-size: 30px;
+        }
+    }
+}
