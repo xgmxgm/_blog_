@@ -7,7 +7,8 @@ import { FC } from 'react';
 import 'swiper/css';
 import "swiper/css/effect-cards";
 
-import test from "../../../../public/img/test.jpg"
+import Photo_1 from "../../../../public/img/test.jpg"
+import Photo_2 from "../../../../public/img/photo_1.jpg"
 import "./slider.scss"
 
 export const Slider: FC = () => {
@@ -35,11 +36,8 @@ export const Slider: FC = () => {
                 spaceBetween={0}
                 slidesPerView={1}
             >
-                <SwiperSlide className='Swiper__Card'><img src={test}/></SwiperSlide>
-                <SwiperSlide className='Swiper__Card'><img src={test}/></SwiperSlide>
-                <SwiperSlide className='Swiper__Card'><img src={test}/></SwiperSlide>
-                <SwiperSlide className='Swiper__Card'><img src={test}/></SwiperSlide>
-                <SwiperSlide className='Swiper__Card'><img src={test}/></SwiperSlide>
+                <SwiperSlide className='Swiper__Card'><img src={Photo_1}/></SwiperSlide>
+                <SwiperSlide className='Swiper__Card'><img src={Photo_2}/></SwiperSlide>
             </Swiper>
         </motion.div>
     )
