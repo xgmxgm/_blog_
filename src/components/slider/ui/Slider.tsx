@@ -7,8 +7,8 @@ import { FC } from 'react';
 import 'swiper/css';
 import "swiper/css/effect-cards";
 
-import Photo_1 from "../../../../public/img/test.jpg"
-import Photo_2 from "../../../../public/img/photo_1.jpg"
+import Photo_1 from "../../../../public/img/test.webp"
+import Photo_2 from "../../../../public/img/photo_1.webp"
 import "./slider.scss"
 
 export const Slider: FC = () => {
