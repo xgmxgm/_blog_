@@ -28,7 +28,18 @@
                 border: 2px solid #0D0D0D;
             }
         }
-}
+    }
+    .body__Profolio {
+        .body__Projects {
+            .Projects__Table {
+                background-color: #CCCCCC;
+            }
+        }
+
+        .body__Project_card {
+            background-color: #E6E6E6;
+        }
+    }
 }
 
 
@@ -61,6 +72,18 @@
                 background-color: #303536;
                 border: 2px solid #E6E6E6;
             }
+        }
+    }
+
+    .body__Profolio {
+        .body__Projects {
+            .Projects__Table {
+                background-color: #303536;
+            }
+        }
+
+        .body__Project_card {
+            background-color: #202324;
         }
     }
 }

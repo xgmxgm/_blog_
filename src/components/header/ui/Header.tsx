@@ -22,7 +22,7 @@ export const Header: FC = () => {
         <div>
             <div className="header__main">
                 
-                <Link to="/AboutMe"><h6>XGM</h6></Link>
+                <Link to="AboutMe"><h6>XGM</h6></Link>
                 <div>
                     <button onClick={() => setIsDark(!isDark)}>{t("Header.theme")}</button>
                     <button onClick={() => changeLanguage("en")}>EN</button>

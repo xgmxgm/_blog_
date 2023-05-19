@@ -53,7 +53,16 @@
         "Portfolio" : {
             "title" : "PORTFOLIO",
             "info_title" : "This section is currently under development",
-            "info" : "I will post my future projects"
+            "info" : "I will post my future projects",
+            "projects" : {
+                "project_1" : {
+                    "title" : "SPEDEE",
+                    "info" : "Check your internet speed!",
+                    "info_more": "Recently, as my final project, I made a website that called it the speed of my internet and called it 'SPEDEE'. The site structure is made in Python and Flask. CSS is used for styling. I made the speed test logic using pip speedtest. The design was used from the 'speed test' website.",
+                    "github__link__name" : "Source code on GitHub.",
+                    "github__link" : "https://github.com/xgmxgm/SPEEDE"
+                }
+            }
         }
     }
 }
