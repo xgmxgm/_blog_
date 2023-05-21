@@ -1,6 +1,6 @@
 import { FC, useState } from "react"
 import { useTranslation } from "react-i18next"
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 
 import "./Header.scss"
@@ -18,11 +18,17 @@ export const Header: FC = () => {
         i18n.changeLanguage(language);
     };
 
+    const router = useNavigate()
+
     return (
         <div>
             <div className="header__main">
-                
-                <Link to="AboutMe"><h6>XGM</h6></Link>
+                <h6
+                    onClick={() => router("/AboutMe")}
+                    style={{"cursor": "pointer"}}
+                >
+                    XGM
+                </h6>
                 <div>
                     <button onClick={() => setIsDark(!isDark)}>{t("Header.theme")}</button>
                     <button onClick={() => changeLanguage("en")}>EN</button>

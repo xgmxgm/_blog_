@@ -8,7 +8,7 @@ import { useParams } from "react-router-dom"
 
 export const ProjectId: FC = () => {
 
-    const params = useParams();    
+    const params = useParams();   
 
     const { t, i18n } = useTranslation();
 
