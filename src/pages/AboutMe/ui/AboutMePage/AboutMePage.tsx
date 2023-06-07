@@ -9,7 +9,7 @@ import { MyKnowIT } from '@/components/myKnowIT/index';
 import { Header } from '@/components/header';
 
 export const AboutMePage: FC = () => {
-
+    
     const pVariants = {
         hidden: {
             x: -100,
@@ -36,11 +36,11 @@ export const AboutMePage: FC = () => {
                     animate = {"visible"}
                     variants={pVariants}
                 >
-                    <div className='About_me_text text-center max-w-my_719'>
+                    <div className='About_me_text'>
                         <h3 className='text-4xl'>{t("Main.AboutMe.about_me_name")}</h3>
                         <p className='text-3xl'>{t("Main.AboutMe.about_me_info")}</p>
                     </div>
-                    <div className='About_me_photo flex justify-center'>
+                    <div className='About_me_photo'>
                         <Slider />
                     </div>
                 </motion.div>
