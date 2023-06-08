@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './18n'
+import { App } from '@/app/App'
+import '@/app/styles/globals.scss'
 
-import { App } from './App'
-import './assets/index.scss'
+import "../18n"
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>
-);
+  </React.StrictMode>,
+)

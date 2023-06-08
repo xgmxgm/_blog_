@@ -1,1 +1,0 @@
-export { AboutMePage } from "./ui/AboutMePage/AboutMePage";
