@@ -1,0 +1,36 @@
+@import "../../../assets/animation.scss";
+
+// swiper
+
+.swiper {
+    width: 290px;
+    height: 390px;
+    margin-top: 40px;
+}
+
+.Swiper__Card {
+    border-radius: 18px;
+    z-index: 1;
+    animation: light 7s infinite;
+}
+
+@media (max-width: 744px) {
+    .swiper {
+        width: calc(520px / 2);
+        height: calc(590px / 1.9);
+    }
+}
+
+@media (max-width: 560px) {
+    .swiper {
+        width: calc(520px / 2.5);
+        height: calc(590px / 2.1);
+    }
+}
+
+@media (max-width: 445px) {
+    .swiper {
+        width: 150px;
+        height: 200px;
+    }
+}

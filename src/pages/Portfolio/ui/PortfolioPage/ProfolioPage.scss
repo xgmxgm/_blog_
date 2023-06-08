@@ -1,0 +1,23 @@
+@media (max-width: 750px) {
+    .body__Profolio {
+        h2 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 35px;
+        }
+    }
+}
+
+@media (max-width: 660px) {
+    .body__Profolio {
+        h2 {
+            font-size: 35px;
+        }
+
+        p {
+            font-size: 30px;
+        }
+    }
+}

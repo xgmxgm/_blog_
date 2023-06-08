@@ -1,20 +1,68 @@
 {
     "Header" : {
-        "language" : "language"
+        "theme" : "Theme",
+
+        "Links" : {
+            "link_one" : "BLOG",
+            "link_two" : "ABOUT ME",
+            "link_three" : "PORTFOLIO"
+        }
     },
-    "welcomeModal" : {
-        "title" : "Enter text to copy.",
-        "placeholder" : "Enter here text...",
-        "buttonText" : "enter"
-    },
-    "main" : {
-        "placeholder" : "Retype text here",
-        "buttonText" : "again"
-    },
-    "finishModal" : {
-        "title" : "Congratulations, you have successfully rewritten the text!",
-        "Time" : "Your Time : ",
-        "sec" : "sec",
-        "WPM" : "Your WPM : "
+    "Main" : {
+        "Welcome" : {
+            "title" : "Thank you for visiting my site!",
+            "info" : "Welcome to my web kingdom. Here I want to tell what I do in the IT world and not only. What are my hobbies and what do I listen to."
+        },
+        "Blog" : {
+            "title" : "BLOG",
+            "info_title" : "This section is currently under development",
+            "info" : "I will spread what I do in the IT world"
+        },
+        "AboutMe" : {
+            "title" : "ABOUT ME",
+            "about_me_name" : "Ernar Kalkabekov",
+            "about_me_info" : "Hi, I'm Ernar, and I'm developing in the world of IT. I was born in Kazakhstan and live in Almaty. Always dreamed of being a programmer. Now I am engaged in game development, website creation, and radio technology. I would like to develop in various fields. My hobbies: playing sports, assembling rubik's cube, and of course programming. I want to be a master in their fields, and slowly I'm going to my goal!",
+            "music_player" : {
+                "title" : "What am i listening to"
+            },
+            "MyKnowIT" : {
+                "title" : "My knowledge in IT",
+                "cards" : {
+                    "card__one" : {
+                        "title" : "Design",
+                        "tools" : "Tool",
+                        "tools__name" : "Figma"
+                    },
+                    "card__two" : {
+                        "title" : "Website layout",
+                        "tools" : "Language",
+                        "tools__name" : "JavaScript, TypeScript & Python",
+                        "structure" : "Structure",
+                        "structure__name" : "React & Flask",
+                        "stylization" : "Stylization",
+                        "stylization__name" : "SCSS & TailWindCSS"
+                    },
+                    "card__three" : {
+                        "title" : "Game dev",
+                        "tools__name" : "Unity",
+                        "language" : "C#"
+                    }
+                }
+            }
+        },
+        "Portfolio" : {
+            "title" : "PORTFOLIO",
+            "info_title" : "This section is currently under development",
+            "info" : "I will post my future projects",
+            "projects" : {
+                "project_1" : {
+                    "title" : "SPEDEE",
+                    "info" : "Check your internet speed!",
+                    "info_more": "Recently, as my final project, I made a website that called it the speed of my internet and called it 'SPEDEE'. The site structure is made in Python and Flask. CSS is used for styling. I made the speed test logic using pip speedtest. The design was used from the 'speed test' website.",
+                    "github__link__name" : "Source code on GitHub.",
+                    "github__link" : "https://github.com/xgmxgm/SPEEDE"
+                }
+            }
+        }
     }
 }

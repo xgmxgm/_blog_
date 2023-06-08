@@ -1,0 +1,28 @@
+// color
+
+$blue: #226ce0;
+
+@keyframes hoverSmall {
+    0% {
+        width: 100%;
+    }
+    50% {
+        width: 20%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes light {
+    0% {
+        box-shadow: 0px 0px 0px $blue;
+    }
+    50% {
+        // box-shadow: 0px 0px 5px #E6E6E6;
+        box-shadow: 0px 0px 50px $blue;
+    }
+    100% {
+        box-shadow: 0px 0px 0px $blue;
+    }
+}
