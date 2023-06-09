@@ -9,11 +9,13 @@ import { useParams } from "react-router-dom"
 export const ProjectId: FC = () => {
     const params = useParams();   
 
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
 
     const id = params.id
 
     const link = t(`Main.Portfolio.projects.project_${id}.github__link`)
+
+    const linkProject = t(`Main.Portfolio.projects.project_${id}.project__link`)
 
     return (
         <div className="body__Project_id">
@@ -23,6 +25,7 @@ export const ProjectId: FC = () => {
                 <p>{t(`Main.Portfolio.projects.project_${id}.info_more`)}</p>
                 <div className="links">
                     <a href={link} target="_blank">{t(`Main.Portfolio.projects.project_${id}.github__link__name`)}</a>
+                    <a href={linkProject} target="_blank">{t(`Main.Portfolio.projects.project_${id}.project__link__name`)}</a>
                 </div>
             </div>
         </div>

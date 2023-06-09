@@ -5,13 +5,14 @@ import "./Project_card.scss"
 
 import spedee from "../../../../public/img/logo_spedee.webp"
 interface IProps {
+    id: number,
+    img: string
     title: string,
     info: string,
-    id: number
 }
 
 export const Project_card: FC<IProps> = (props) => {
-    const { title, info, id } = props
+    const { title, info, id, img } = props
     const router = useNavigate()
 
     return (
@@ -19,7 +20,7 @@ export const Project_card: FC<IProps> = (props) => {
                 onClick={() => router(`/Portfolio/${props.id}`)}
             >
                 <div className="Project_card__img">
-                    <img src={spedee} alt="" />
+                    <img src={img} alt="" />
                 </div>
                 <div className="Project_card__text">
                         <h3>

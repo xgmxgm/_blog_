@@ -60,7 +60,18 @@
                     "info" : "Check your internet speed!",
                     "info_more": "Recently, as my final project, I made a website that called it the speed of my internet and called it 'SPEDEE'. The site structure is made in Python and Flask. CSS is used for styling. I made the speed test logic using pip speedtest. The design was used from the 'speed test' website.",
                     "github__link__name" : "Source code on GitHub.",
-                    "github__link" : "https://github.com/xgmxgm/SPEEDE"
+                    "github__link" : "https://github.com/xgmxgm/SPEEDE",
+                    "project__link__name" : "",
+                    "project__link" : ""
+                },
+                "project_2" : {
+                    "title" : "TYPEING",
+                    "info" : "Test your typing speed!",
+                    "info_more" : "The other day I made another project that checks the typing speed using one formula, I took the colors for the design from the site: “Monkey Type”. When entering the site, you need to enter the text for printing and in a special field you need to rewrite the text. I think my project will be useful for beginners in the field of IT.",
+                    "github__link__name" : "Source code on GitHub.",
+                    "github__link" : "https://github.com/xgmxgm/TYPEING",
+                    "project__link__name" : "The site itself",
+                    "project__link" : "https://xgmtypeing.vercel.app/"
                 }
             }
         }
