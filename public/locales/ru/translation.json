@@ -70,6 +70,15 @@
                     "github__link" : "https://github.com/xgmxgm/TYPEING",
                     "project__link__name" : "Сам сайт",
                     "project__link" : "https://xgmtypeing.vercel.app/"
+                },
+                "project_3" : {
+                    "title" : "GenPass",
+                    "info" : "Сгенерируйте новый пароль !",
+                    "info_more" : "Для практики я сделал сайт который генерирует вам пароль по длине и вашим предпочтением. Идею я взят с сайта “Password Generator”. При созданий этого проекта особых проблем не было ,но зато лучше начел разбираться работы с Input.Сайт предоставит вам очень надежный пароль !",
+                    "github__link__name" : "Исходный код в GitHub.",
+                    "github__link" : "https://github.com/xgmxgm/GenPass",
+                    "project__link__name" : "Сам сайт",
+                    "project__link" : "https://gen-pass-virid.vercel.app/"
                 }
             }
         }

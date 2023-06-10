@@ -72,6 +72,15 @@
                     "github__link" : "https://github.com/xgmxgm/TYPEING",
                     "project__link__name" : "The site itself",
                     "project__link" : "https://xgmtypeing.vercel.app/"
+                },
+                "project_3" : {
+                    "title" : "GenPass",
+                    "info" : "Generate a new password!",
+                    "info_more" : "To practice, I made a site that generates a password for you based on the length and your preferences. I took the idea from the site 'Password Generator'. The site will give you a very strong password!",
+                    "github__link__name" : "Source code on GitHub.",
+                    "github__link" : "https://github.com/xgmxgm/GenPass",
+                    "project__link__name" : "The site itself",
+                    "project__link" : "https://gen-pass-virid.vercel.app/"
                 }
             }
         }
