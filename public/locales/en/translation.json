@@ -81,6 +81,15 @@
                     "github__link" : "https://github.com/xgmxgm/GenPass",
                     "project__link__name" : "The site itself",
                     "project__link" : "https://gen-pass-kappa.vercel.app/"
+                },
+                "project_4" : {
+                    "title" : "CONVERTER",
+                    "info" : "Convert your photo to the right format !",
+                    "info_more" : "For practicing working with data and uploading data to a website, I undertook this project and also used the new technology called 'Redux'. I really enjoyed the project, gained valuable experience in development, and now I can convert photos without any major issues!",
+                    "github__link__name" : "Source code on GitHub.",
+                    "github__link" : "https://github.com/xgmxgm/CONVERTER",
+                    "project__link__name" : "The site itself",
+                    "project__link" : "https://converter-tawny.vercel.app/"
                 }
             }
         }

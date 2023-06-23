@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom"
 
 import "./Project_card.scss"
 
-import spedee from "../../../../public/img/logo_spedee.webp"
 interface IProps {
     id: number,
     img: string
