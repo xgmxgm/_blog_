@@ -84,12 +84,21 @@
                 },
                 "project_4" : {
                     "title" : "CONVERTER",
-                    "info" : "Convert your photo to the right format !",
+                    "info" : "Convert your photo to the right format!",
                     "info_more" : "For practicing working with data and uploading data to a website, I undertook this project and also used the new technology called 'Redux'. I really enjoyed the project, gained valuable experience in development, and now I can convert photos without any major issues!",
                     "github__link__name" : "Source code on GitHub.",
                     "github__link" : "https://github.com/xgmxgm/CONVERTER",
                     "project__link__name" : "The site itself",
                     "project__link" : "https://converter-tawny.vercel.app/"
+                },
+                "project_5" : {
+                    "title" : "AgeCalculator",
+                    "info" : "Count how old, months and days you are!",
+                    "info_more" : "I looked up the idea on the 'Frontend Mentor' site and decided to take it as a basis, changing the design a bit. I liked the project and taught me how to work with time in JS. It uses React and TypeScript technologies ",
+                    "github__link__name" : "Source code on GitHub.",
+                    "github__link" : "https://github.com/xgmxgm/Age_calculator_app",
+                    "project__link__name" : "The site itself",
+                    "project__link" : "https://age-calculator-app-ecru.vercel.app/"
                 }
             }
         }

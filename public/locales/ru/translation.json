@@ -88,6 +88,15 @@
                     "github__link" : "https://github.com/xgmxgm/CONVERTER",
                     "project__link__name" : "Сам сайт",
                     "project__link" : "https://converter-tawny.vercel.app/"
+                },
+                "project_5" : {
+                    "title" : "AgeCalculator",
+                    "info" : "Посчитай, сколько тебе лет, месяцев и дней!",
+                    "info_more" : "Я подсмотрел идею на сайте 'Frontend Mentor' и решил взять ее за основу, немного изменяя дизайн. Проект мне понравился и научил меня работать с временем в JS. В нем использованы технологии React и TypeScript ",
+                    "github__link__name" : "Исходный код в GitHub.",
+                    "github__link" : "https://github.com/xgmxgm/Age_calculator_app",
+                    "project__link__name" : "Сам сайт",
+                    "project__link" : "https://age-calculator-app-ecru.vercel.app/"
                 }
             }
         }
