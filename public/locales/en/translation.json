@@ -101,7 +101,7 @@
                     "project__link" : "https://age-calculator-app-ecru.vercel.app/"
                 },
                 "project_6" : {
-                    "title" : "AgeCalculator",
+                    "title" : "DevFinder",
                     "info" : "Find out your git account information!",
                     "info_more" : "In order to learn how to work with APIs, I decided to work with the GitHub API. This project taught me how to work more intelligently with requests. I also used the Next JS framework to understand how the technology itself works. I also took the design from the 'Frontend Mentor' website. Next Js and TypeScript technology ",
                     "github__link__name" : "Source code on GitHub.",
