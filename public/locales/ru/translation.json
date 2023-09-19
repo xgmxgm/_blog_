@@ -97,6 +97,15 @@
                     "github__link" : "https://github.com/xgmxgm/Age_calculator_app",
                     "project__link__name" : "Сам сайт",
                     "project__link" : "https://age-calculator-app-ecru.vercel.app/"
+                },
+                "project_6" : {
+                    "title" : "DevFinder",
+                    "info" : "Узнайте информацию об учетной записи git!",
+                    "info_more" : "Для того чтобы научиться работать с API, я решил поработать с API GitHub. Этот проект научил меня более грамотно работать с запросами. Я также использовал фреймворк Next JS, чтобы понять, как работает сама технология. Дизайн я также взял с сайта 'Frontend Mentor'. Стек технологий Next Js и TypeScript. ",
+                    "github__link__name" : "Исходный код в GitHub.",
+                    "github__link" : "https://github.com/xgmxgm/devFinder",
+                    "project__link__name" : "Сам сайт",
+                    "project__link" : "https://dev-finder-xgmxgm.vercel.app/"
                 }
             }
         }
