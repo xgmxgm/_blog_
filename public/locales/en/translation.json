@@ -108,6 +108,15 @@
                     "github__link" : "https://github.com/xgmxgm/devFinder",
                     "project__link__name" : "The site itself",
                     "project__link" : "https://dev-finder-xgmxgm.vercel.app/"
+                },
+                "project_7" : {
+                    "title" : "AdviceGenerator",
+                    "info" : "Get unhelpful advice!",
+                    "info_more" : "I decided to make this project to prove my skills using API. I got the idea from the 'Frontend Mentor' site. React and TypeScript stack with Next JS added. I liked the project and decided to make it as fast as possible and did it in two days with a ready Design. ",
+                    "github__link__name" : "Source code on GitHub.",
+                    "github__link" : "https://github.com/xgmxgm/Advice_generator_app",
+                    "project__link__name" : "The site itself",
+                    "project__link" : "https://advice-generator-app-ivory.vercel.app/"
                 }
             }
         }

@@ -106,6 +106,15 @@
                     "github__link" : "https://github.com/xgmxgm/devFinder",
                     "project__link__name" : "Сам сайт",
                     "project__link" : "https://dev-finder-xgmxgm.vercel.app/"
+                },
+                "project_7" : {
+                    "title" : "AdviceGenerator",
+                    "info" : "Получите бесполезный совет!",
+                    "info_more" : "Я решил сделать этот проект, чтобы подтвердить свои навыки работы с API. Идею я почерпнул на сайте 'Frontend Mentor'. Стек React и TypeScript с добавлением Next JS. Проект мне понравился, я решил сделать его как можно быстрее и сделал его за два дня с готовым дизайном. ",
+                    "github__link__name" : "Исходный код в GitHub.",
+                    "github__link" : "https://github.com/xgmxgm/Advice_generator_app",
+                    "project__link__name" : "Сам сайт",
+                    "project__link" : "https://advice-generator-app-ivory.vercel.app/"
                 }
             }
         }

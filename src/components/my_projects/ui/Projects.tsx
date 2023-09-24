@@ -10,6 +10,7 @@ import GenPass from "../../../../public/img/GenPass.webp"
 import Conveter from "../../../../public/img/Converter.webp"
 import AgeCalculator from "../../../../public/img/Age_calculatro_app_logo.webp"
 import DevFinder from "../../../../public/img/devFinder.webp"
+import AdviceGenerator from '../../../../public/img/Advice_Logo.webp'
 
 export const Projects: FC = () => {
     const { t } = useTranslation();
@@ -23,6 +24,7 @@ export const Projects: FC = () => {
                 <Project_card id={4} img={Conveter} title="CONVERTER" info={t("Main.Portfolio.projects.project_4.info")} />
                 <Project_card id={5} img={AgeCalculator} title="AgeCalculator" info={t("Main.Portfolio.projects.project_5.info")} />
                 <Project_card id={6} img={DevFinder} title="DevFinder" info={t("Main.Portfolio.projects.project_6.info")} />
+                <Project_card id={7} img={AdviceGenerator} title="AdviceGenerator" info={t("Main.Portfolio.projects.project_7.info")} />
             </div>
         </div>
     )
