@@ -115,6 +115,15 @@
                     "github__link" : "https://github.com/xgmxgm/Advice_generator_app",
                     "project__link__name" : "Сам сайт",
                     "project__link" : "https://advice-generator-app-ivory.vercel.app/"
+                },
+                "project_8" : {
+                    "title" : "DictionaryWeb",
+                    "info" : "Найди не понятное слово!",
+                    "info_more" : "Чтобы укрепить свои знания о работе с API, я решил сделать этот проект, идея и дизайн которого были взяты с сайта 'Frontend Mentor'. Проект помог мне лучше понять типы и работу с API, а также научил меня менять шрифт с помощью select. Следующий стек технологий - Next JS с TypeScript. ",
+                    "github__link__name" : "Исходный код в GitHub.",
+                    "github__link" : "https://github.com/xgmxgm/Dictionary_web_app",
+                    "project__link__name" : "Сам сайт",
+                    "project__link" : "https://dictionary-web-app-wheat.vercel.app/"
                 }
             }
         }

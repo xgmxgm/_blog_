@@ -117,6 +117,15 @@
                     "github__link" : "https://github.com/xgmxgm/Advice_generator_app",
                     "project__link__name" : "The site itself",
                     "project__link" : "https://advice-generator-app-ivory.vercel.app/"
+                },
+                "project_8" : {
+                    "title" : "DictionaryWeb",
+                    "info" : "Find the word you don't understand!",
+                    "info_more" : "To strengthen my knowledge of working with APIs, I decided to make this project, the idea and design was taken from the 'Frontend Mentor' website. The project helped me better understand types and working with APIs, and taught me how to change the font using select. The next technology stack is Next JS with TypeScript. ",
+                    "github__link__name" : "Source code on GitHub.",
+                    "github__link" : "https://github.com/xgmxgm/Dictionary_web_app",
+                    "project__link__name" : "The site itself",
+                    "project__link" : "https://dictionary-web-app-wheat.vercel.app/"
                 }
             }
         }
