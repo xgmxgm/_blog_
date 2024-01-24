@@ -12,6 +12,7 @@ import AgeCalculator from "../../../../public/img/Age_calculatro_app_logo.webp"
 import DevFinder from "../../../../public/img/devFinder.webp"
 import AdviceGenerator from '../../../../public/img/Advice_Logo.webp'
 import DictionaryWeb from '../../../../public/img/dictionary_app.webp'
+import BMI from "../../../../public/img/BMI.webp"
 
 export const Projects: FC = () => {
     const { t } = useTranslation();
@@ -27,6 +28,7 @@ export const Projects: FC = () => {
                 <Project_card id={6} img={DevFinder} title="DevFinder" info={t("Main.Portfolio.projects.project_6.info")} />
                 <Project_card id={7} img={AdviceGenerator} title="AdviceGenerator" info={t("Main.Portfolio.projects.project_7.info")} />
                 <Project_card id={8} img={DictionaryWeb} title="DictionaryWeb" info={t("Main.Portfolio.projects.project_8.info")} />
+                <Project_card id={9} img={BMI} title="BMI" info={t("Main.Portfolio.projects.project_9.info")} />
             </div>
         </div>
     )

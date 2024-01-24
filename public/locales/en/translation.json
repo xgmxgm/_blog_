@@ -126,6 +126,15 @@
                     "github__link" : "https://github.com/xgmxgm/Dictionary_web_app",
                     "project__link__name" : "The site itself",
                     "project__link" : "https://dictionary-web-app-wheat.vercel.app/"
+                },
+                "project_9" : {
+                    "title" : "BMI",
+                    "info" : "Calculate your BMI!",
+                    "info_more" : "I haven't posted a project in a while, and to get some more experience, I decided to do this project. ",
+                    "github__link__name" : "Source code on GitHub.",
+                    "github__link" : "https://github.com/xgmxgm/BMI",
+                    "project__link__name" : "The site itself",
+                    "project__link" : "https://bmi-xgmxgm.vercel.app/"
                 }
             }
         }

@@ -124,6 +124,15 @@
                     "github__link" : "https://github.com/xgmxgm/Dictionary_web_app",
                     "project__link__name" : "Сам сайт",
                     "project__link" : "https://dictionary-web-app-wheat.vercel.app/"
+                },
+                "project_9" : {
+                    "title" : "BMI",
+                    "info" : "Подсчитай свой ИМТ!",
+                    "info_more" : "Давно я не выкладывал проекты, и чтобы получить дополнительный опыт, я решил сделать этот проект. ",
+                    "github__link__name" : "Исходный код в GitHub.",
+                    "github__link" : "https://github.com/xgmxgm/BMI",
+                    "project__link__name" : "Сам сайт",
+                    "project__link" : "https://bmi-xgmxgm.vercel.app/"
                 }
             }
         }
